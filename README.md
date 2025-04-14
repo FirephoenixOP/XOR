@@ -34,6 +34,9 @@ To compile the program with all warnings as errors (for strict checking), use th
 gcc -Wall -Wextra -Werror -g -o xor_program xor_program.c -lssl -lcrypto -pthread
 ```
 
+Precompiled Binary
+A precompiled version of the program for Linux AMD 64 architecture is available for download in the [release](https://github.com/FirephoenixOP/XOR/releases) section of this repository. You can download the file and run it directly without needing to compile it yourself.
+
 ### Usage
 
 ```bash
