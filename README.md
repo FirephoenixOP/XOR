@@ -57,7 +57,7 @@ Encrypt a file:
 ```
 When prompted for Password
 ```bash
-pass@123
+pass123
 ```
 
 Decrypt a file:
@@ -66,5 +66,5 @@ Decrypt a file:
 ```
 When prompted for Password
 ```bash
-pass@123
+pass123
 ```
