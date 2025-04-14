@@ -45,3 +45,23 @@ gcc -Wall -Wextra -Werror -g -o xor_program xor_program.c -lssl -lcrypto -pthrea
 - **<key_file>:** The file containing the key for encryption/decryption.
 - **<-e | -d>:** -e for encryption, -d for decryption.
 - **[-t thread_count] (optional):** Number of threads to use for parallel processing (default: 4).
+
+### Example
+
+Encrypt a file:
+```bash
+./xor_encryption input.txt encrypted.txt key.txt -e -t 8
+```
+When prompted for Password
+```bash
+pass@123
+```
+
+Decrypt a file:
+```bash
+./xor_encryption encrypted.txt output.txt key.txt -d -t 8
+```
+When prompted for Password
+```bash
+pass@123
+```
